@@ -1,0 +1,91 @@
+html{
+   font-size: 62.5%;
+}
+
+@font-face {
+   font-family: "young";
+   src: url(../fonts/fonte-youg.ttf);
+}
+
+body{
+   font-size: 1.5rem;
+   font-family: "young";
+}
+
+.header{
+
+}
+
+.navBar{
+   max-width: 120rem;
+   margin: 0 auto;
+   padding: 2rem;
+}
+
+.navBar ul{
+   display: flex;
+   gap: 4rem;
+   padding: 2rem;
+}
+
+li{
+   list-style: none;
+   font-size: 2rem;
+   font-weight: 800;
+}
+
+li a{
+   text-decoration: none;
+   color: rgb(139, 28, 10);
+   transition-duration: .5s;
+   transition-property: padding, border;
+   transition-timing-function: ease;
+
+}
+a:hover{
+   padding:  .5rem 1rem;
+   border: 1px solid black;
+   border-radius: 10px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.658);
+   color: black;
+}
+
+.container{
+   padding: 8rem 1rem 0 1rem;
+   max-width: 120rem;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+h1{
+   font-size: 4.4rem;
+}
+
+p{
+   max-width: 48rem;
+   font-size: 1.6rem;
+   padding: 4rem 0;
+}
+
+figure  img{
+   width: 60rem;
+}
+
+.btn{
+   font-family: "young";
+   font-size: 2rem;
+   font-weight: 800;
+   padding: 0.5rem 1rem;
+   border-radius: 10px;
+   border: none;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.658);
+   color: black;
+   cursor: pointer;
+}
+
+
+
+

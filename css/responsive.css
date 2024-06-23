@@ -1,0 +1,53 @@
+@media (max-width: 1000px){
+   .navBar{
+      display: flex;
+      justify-content: center;
+   }
+
+   .container{
+      flex-direction: column;
+   }
+
+   .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   h1{
+      max-width: 60rem;
+      text-align: center;
+   }
+
+   p{
+      text-align: center;
+   }
+
+   figure img{
+      padding-top: 5rem;
+   }
+}
+
+@media(max-width: 500px){
+   .navBar li{
+      font-size: 1.8rem;
+   }
+
+   h1{
+      font-size: 3rem;
+   }
+
+   p{
+      font-size: 1.4rem;
+      max-width: 40rem;
+   }
+
+   .btn{
+      font-size: 1.8rem;
+   }
+
+   figure img{
+      width: 45rem;
+   }
+}
